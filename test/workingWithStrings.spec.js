@@ -6,7 +6,7 @@ describe("Working with Strings", ()=>{
     it("Testing Full Name with Comma",()=>{ 
         expect(fullNameWithComma("Bob", "Ross")).to.be.equal("Ross, Bob")
         expect(fullNameWithComma("joe", "dirt"), "Capital Letters matter").to.be.equal("Dirt, Joe")
-        expect(fullNameWithComma("GORDON", "RAMSAY"), "Don't yell please.").to.be.equal("Ramsay, Gordan")
+        expect(fullNameWithComma("GORDON", "RAMSAY"), "Don't yell please.").to.be.equal("Ramsay, Gordon")
     })
 
     it("Testing fill in the blank", ()=>{
